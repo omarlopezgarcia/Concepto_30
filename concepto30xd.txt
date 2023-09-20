@@ -1,0 +1,119 @@
+Buen día yo soy el alumno Omar Andrés López García del 4
+semestre de la carrera de análisis de sistemas en el insituto
+de valle grande y en este ocasión tengo el agrado de poder
+hablarles aceca de un concepto con 3 temas de javaScript,
+estos conceptos son los siguientes.
+
+Inheritance (injeredens) o Herencia 
+Polymorphism (polimorfisim)  o polimorfismo
+y Code Reuse (coud rius) o Reutilización de Código.
+
+---------HERENCIA----------
+Primeramente hablarles y explicarles un poco acerca de lo
+que es la Herencia, este concepto nos explica que en un
+código de JavaScript nosotros podamos permitir que una
+clase creada, se atribuida o herede atributos y
+métodos de otra clase.
+
+Y se preguntarán de que sirve aprender este concepto
+llamado Herencia en JavaScript, pues nos extiende de
+conocimientos de javascript y también nos otorga
+beneficios, tales como realizar una buena estructura
+de código, ocupación de varias funcionalidades
+javascript, y creación o demostración de un
+tipo de jerarquía de clases.
+
+Para poder detallar más, voy a realizar un ejemplo
+de como se ve o como se desarrolla una herencia 
+en un código javascript: (Explico el JavaScript)
+
+Este ejemplo se basa acerca de un animal,
+un gato apropiadamente.
+
+Primero vemos que comienza con función,
+esta función es la clase base del animal, la cual va
+a ser de quien se va a heredar las demás clases.
+
+Continuamente se obtiene el método de instancias
+del animal, este es la continuación de la clase base,
+a este le otorgamos la función de que genere un saludo. 
+
+Luego de esto viene la subclase Gato con dos variables
+nombre y raza, y acá se puede ver como esta clase
+hereda la propiedad nombre y el método
+saludar de la clase base Animal. 
+
+Luego acá se ve una herencia para el gato, la cual es
+creada para poder otorgarle al gato la acción de
+maullar y esto se ve en esta parte donde se crea un
+método dándole su función.
+
+últimamente se ven las instancias donde colocamos
+o rellenamos con datos.
+
+para que finalmente podamos ver el output de salida,
+el cuál demuestra cómo se puede lograr la herencia
+en JavaScript
+
+---------POLIMORFISMO----------
+Retomando los conceptos, el siguiente se llama
+Polimorfismo, y que es el polimorfismo?,
+este concepto hace que el sistema sea más flexible y que
+objetos de diferentes clases respondan de manera
+uniforme a un mismo método (desplazar en este caso)
+pero con implementaciones específicas para cada subclase.
+
+Esto que acabo de decir lo voy a explicar con un ejemplo
+de código hecho en javascript.
+
+Para desarrollar el concepto de polimorfismo, he hecho
+el código en base a vehiculos.
+
+A simple vista se pueden ver 2 vehículos los cuales
+son Carro y Bicicleta 
+
+Primeramente se debe crear la clase base, en este código
+se llama vehículo, a este se le agregó el constructor y
+el método común para todos los vehículos
+el cual se llama desplazar, como mencione anteriormente
+el polimorfismo hará que clases diferentes, que son Carro
+y Bicicleta, usen un mismo método que es desplazar.
+
+Y continuamente despuésde crear la clase base, se crean las
+clases, o bueno subclases en este caso cabe destacar que para
+que se desarrolle el polimorfismo se debe a la clases hacer un
+extends, esto es para obtener algunos objetos incorporados en
+la clase base (explicar subclases facilito papu EZ)
+Ultimamente se hacen las instancias para obtener el output
+agregando los datos a aquellas variables de las clases en este
+caso puse ..... y para que
+finalmente llamar al método desplazar en ámbas instancias.
+
+---------CODE REUSE----------
+Y ahora finalmente con el concepto de tema, Reutilización
+de código, el cuál se enlaza con los mencionados anteriormente
+
+Este tema, es claro y sencillo, pero con detalle que destacar, su
+propio nombre lo dice, reutlización de código, pero no trata
+de rehusar un código tal y como estaba, sino de volver a
+usarlo pero adaptandolo a la necesidad que estemos buscando,
+evitando así escribir denuevo el mismo código en varias
+lineas, y llevar un trabajo más ordenado, y eficaz.
+Esto lo explicaré con ejemplo de código hecho en javascript
+
+Me basé en usar calculos simples de tipos de áreas, acá a simple
+vista se pueden ver dos áreas que usaré del cuadrado y del circulo.
+Primeramente se tiene una función para calcular el área del
+cuadrado, que es lado por lado, y la función para calcular el
+área del circulo que es PI por radio al cuadrado.
+
+Luego se encuentran las funciones donde se utiliza la reutilización
+de código, donde podemos colocar variadamente diferente
+numeros para calcular su área
+
+Y finalmente la demostración del output que nos
+generará automáticamente.
+
+Muchas gracias por haber visto el video, y esperemos que esta
+información brindada haya sido de tu agrado y fruto de
+conocimiento, gracias.
